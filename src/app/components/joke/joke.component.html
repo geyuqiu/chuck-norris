@@ -1,0 +1,4 @@
+<div class="col text-center">
+  <p *ngIf="joke$ | async as joke" class="alert alert-info">{{joke | quotation}}</p>
+  <button class="btn btn-primary" (click)="showAChuckNorrisJoke()" >Gib mir einen Chuck Norris Witz!</button>
+</div>
