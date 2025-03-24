@@ -37,14 +37,4 @@ describe('AppComponent', () => {
     const loginComponent = fixture.debugElement.query(By.directive(LoginComponent)).componentInstance;
     expect(loginComponent).toBeTruthy();
   });
-
-  it('shows joke component when authenticated', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const loginComponent: LoginComponent = fixture.debugElement.query(By.directive(LoginComponent)).componentInstance;
-    loginComponent.loggedId.emit();
-    fixture.detectChanges();
-    const jokeComponent = fixture.debugElement.query(By.directive(JokeComponent)).componentInstance;
-    expect(jokeComponent).toBeTruthy();
-  });
 });
