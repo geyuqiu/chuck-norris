@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
     name: 'quotation',
-    standalone: false
+    standalone: true
 })
 export class QuotationPipe implements PipeTransform {
 
