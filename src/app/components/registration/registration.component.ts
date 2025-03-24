@@ -1,7 +1,7 @@
 import {RegistrationService} from './../../services/registration.service';
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Router} from '@angular/router';
-import {HttpErrorResponse} from '@angular/common/http';
+import { HttpErrorResponse } from '@angular/common/http';
 import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
 
 @Component({
