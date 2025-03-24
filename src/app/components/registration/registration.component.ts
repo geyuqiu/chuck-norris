@@ -5,9 +5,10 @@ import { HttpErrorResponse } from '@angular/common/http';
 import {UntypedFormBuilder, UntypedFormGroup, Validators} from '@angular/forms';
 
 @Component({
-  selector: 'app-registration',
-  templateUrl: './registration.component.html',
-  styleUrls: ['./registration.component.scss'],
+    selector: 'app-registration',
+    templateUrl: './registration.component.html',
+    styleUrls: ['./registration.component.scss'],
+    standalone: false
 })
 export class RegistrationComponent implements OnInit {
   registrationError: string;

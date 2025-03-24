@@ -3,9 +3,10 @@ import { ChuckNorrisJokeService } from '../../services/chuck-norris-joke.service
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-joke',
-  templateUrl: './joke.component.html',
-  styleUrls: ['./joke.component.scss']
+    selector: 'app-joke',
+    templateUrl: './joke.component.html',
+    styleUrls: ['./joke.component.scss'],
+    standalone: false
 })
 export class JokeComponent {
 
